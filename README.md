@@ -23,11 +23,13 @@ Before using the Todo CLI Tool, ensure that you have the following installed:
    ```bash
    git clone https://github.com/your-username/todo-cli-ruby.git
    cd todo-cli-ruby
-2. To setup dependencies
+2. To setup dependencies:
+   ```bash
      -gem install httparty
      -gem install simplecov
      -gem install rspec
 
-3. Run this command
+4. Run this command:
+   ```bash
     -ruby todo.rb
 

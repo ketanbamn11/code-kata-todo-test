@@ -25,11 +25,24 @@ Before using the Todo CLI Tool, ensure that you have the following installed:
    cd todo-cli-ruby
 2. To setup dependencies:
    ```bash
-     -gem install httparty
-     -gem install simplecov
-     -gem install rspec
+     gem install httparty
+     gem install simplecov
+     gem install rspec
 
-4. Run this command:
+4. To see the result 
+   Run this command:
    ```bash
-    -ruby run.rb
+    ruby run.rb
+
+5. To see the test result
+   Run this command
+   ```bash
+    rspec ./todo_spec.rb
+6. To see the test Coverage
+   Run this command
+  ```bash
+    xdg-open coverage/index.html
+
+ 
+
 

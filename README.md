@@ -31,5 +31,5 @@ Before using the Todo CLI Tool, ensure that you have the following installed:
 
 4. Run this command:
    ```bash
-    -ruby todo.rb
+    -ruby run.rb
 

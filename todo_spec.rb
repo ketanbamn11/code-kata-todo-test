@@ -3,7 +3,7 @@ require 'simplecov'
 SimpleCov.start
 require_relative './todo'
 
-RSpec.describe 'ClientData' do
+RSpec.describe 'Todo' do
   before(:all) do
     @todo_instance = Todo.allocate  
   end
